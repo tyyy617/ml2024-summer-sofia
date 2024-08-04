@@ -36,7 +36,7 @@ class NumberProcessor:
 
     def search_number(self, X):
         if X in self.numbers:
-            return self.numbers.index(X) + 1
+            return f'The index of the input {2} in the list is: {self.numbers.index(X) + 1}'
         else:
             return -1
 def main():
